@@ -13,29 +13,29 @@ let availableQuestion = [];
 
 let questions = [
     {
-        question: 'Inside which HTML element do we put the JavaScript??',
-        choice1: '<script>',
-        choice2: '<javascript>',
-        choice3: '<js>',
-        choice4: '<scripting>',
+        question: 'Which is my Favouraite Dish ?',
+        choice1: 'Biryani',
+        choice2: 'Fried Rice',
+        choice3: 'Dosa',
+        choice4: 'Pakoda',
         answer: 1,
     },
     {
         question:
-            "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        choice1: "<script href='xxx.js'>",
-        choice2: "<script name='xxx.js'>",
-        choice3: "<script src='xxx.js'>",
-        choice4: "<script file='xxx.js'>",
+            "Which is my Favouraite movie ?",
+        choice1: "Simhadhri",
+        choice2: "Yamadhonga",
+        choice3: "Adhurs",
+        choice4: "Brindhavanam",
         answer: 3,
     },
     {
-        question: " How do you write 'Hello World' in an alert box?",
-        choice1: "msgBox('Hello World');",
-        choice2: "alertBox('Hello World');",
-        choice3: "msg('Hello World');",
-        choice4: "alert('Hello World');",
-        answer: 4,
+        question: "Guess the Number I think 😌😉?",
+        choice1: "0033",
+        choice2: "3030",
+        choice3: "3300",
+        choice4: "3223",
+        answer: 3,
     },
 ];
 
