@@ -1,0 +1,28 @@
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  .correct {
+    background-color: #28a745;;
+  }
+  .incorrect {
+    background-color: #dc3545;
+  }
+  #hud{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hud-prefix {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #406af3;
+  }
+.hud-main-text{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+    color: #406af3;
+}

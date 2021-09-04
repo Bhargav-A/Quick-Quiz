@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quik Quiz - Play</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="game.css">
+
+</head>
+<body class="bg-indigo-100 box-border">
+    <div class="container flex flex-col items-center py-10">
+        <div id="game" class="">
+            <div id="hud">
+                <div id="hud-item">
+                    <p class="hud-prefix">
+                        Question
+                    </p>
+                    <h1 class="hud-main-text" id="questionCounter">
+                        
+                    </h1>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question" class="text-3xl font-bold">What is the answer to this question ?</h2>
+            <div class="choice-container flex my-5 text-xl w-full border-blue-400 bg-white ">
+                <p class="choice-prefix px-6 py-4 bg-blue-500 text-white">A</p>
+                <p class="choice-text p-4 w-full" data-number="1" >Choice 1</p>
+            </div>
+            <div class="choice-container flex my-5 text-xl w-full border-blue-400 bg-white">
+                <p class="choice-prefix px-6 py-4 bg-blue-500 text-white">B</p>
+                <p class="choice-text p-4 w-full" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container flex my-5 text-xl w-full border-blue-400 bg-white">
+                <p class="choice-prefix px-6 py-4 bg-blue-500 text-white">C</p>
+                <p class="choice-text p-4 w-full" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container flex my-5 text-xl w-full border-blue-400 bg-white">
+                <p class="choice-prefix px-6 py-4 bg-blue-500 text-white">D</p>
+                <p class="choice-text p-4 w-full" data-number="4">Choice 4</p>
+            </div>
+
+        </div>
+
+    
+
+    </div>
+
+<script src="game.js"></script>    
+</body>
+</html>
